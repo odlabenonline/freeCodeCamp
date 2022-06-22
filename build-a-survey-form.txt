@@ -1,0 +1,51 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">A Survery form to extract information for research purpose</p>
+
+    <form id="survey-form" action="https://www.formresponse.html">
+      <label id="name-label">Enter Your Name: 
+      <input id="name" type="text" required placeholder="Full Name"/>
+      </label>
+
+      <label id="email-label">Enter Your email: <input id="email" type="email" required placeholder="email"/>
+      </label>
+
+      <label id="number-label">Enter Your Number: <input id="number" type="number" min="8" max="20" placeholder="Number"/>
+      </label>
+
+      <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Teaching Staff</option>
+            <option value="2">Non-Teaching Staff</option>
+      </select>
+
+      <input type="radio" name="conscent" class="inline" value="agree" /> Agree
+      <input type="radio" name="conscent" class="inline" value="disagree"/> Disagree
+
+      <input type="checkbox" name="terms" class="inline" required value="Regularstream"/> Regular
+      <input type="checkbox" name="terms" class="inline" required value="IDLstream"/> Weekend
+
+      About yourself:
+      <textarea name="bio" rows="3" cols="30" placeholder="Any other information we should know"></textarea>
+
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
