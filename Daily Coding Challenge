@@ -1,0 +1,2 @@
+Day 1 - Acronym Generator -Given a string containing one or more words, return an acronym of the words using the following constraints: ignore the first letter of these words unless they are the first word of the given string: a, for, an, and, by, and of.
+Unique Characer - Given a string, determine if all the characters in the string are unique. Uppercase and lowercase letters should be considered different characters.
